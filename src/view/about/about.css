@@ -1,0 +1,19 @@
+.aboutimg{
+    width: 300px;
+    
+    border-radius:10px;
+    display: block;
+    margin: 10px auto;
+}
+.aboutheading{
+    font-size: 40px;
+    color:brown;
+    text-align: center;
+    margin: 15px 0;
+}
+.abouttext{
+    font-size: 25px;
+    color: rgb(179, 81, 81);
+    text-align: justify;
+    padding: 30px 10% ;
+}

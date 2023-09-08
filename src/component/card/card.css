@@ -1,0 +1,28 @@
+ .card{
+    width:250px;
+    height:420px;
+    border-radius:20px;
+    border:1px solid #330033;
+   background-color:#ffccff;
+    display:inline-block
+}
+ .cardImg{
+    width:90%;
+    height:200px;
+    display:block;
+    border-radius:20px;
+    margin:10px auto 2px auto;
+}
+ .cardHeading{
+  text-align:center;
+    color:330033;
+}
+.cardPara{
+   text-align:Justify;
+    padding:0 20px;
+}
+.btncss{
+   
+    margin-left: 85px;
+    
+}

@@ -1,0 +1,17 @@
+.btn{
+    color: white;
+    background-color: rgb(46, 42, 42);
+    font-size: 15px;
+    padding: 7px 16px;
+    border: none;
+    border-radius: 15px;
+}
+.primary{
+    background-color: aqua;
+}
+.warning{
+    background-color: yellow;
+}
+.sucess{
+    background-color: green;
+}
