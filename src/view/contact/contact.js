@@ -1,4 +1,4 @@
-import Navbar from './../../component/navbar/navbar'
+import Navbar from '../../component/navbar/navbar'
 import Footer from './../../component/footer/footer'
 import './contact.css'
 export default function Contact(){

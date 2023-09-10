@@ -1,6 +1,6 @@
 import './about.css'
 
-import Navbar from './../../component/navbar/navbar'
+import Navbar from '../../component/navbar/navbar'
 import Footer from './../../component/footer/footer'
 import tara from './tara.jpg'
 

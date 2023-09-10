@@ -1,8 +1,5 @@
 import './card.css'
-import varun from './varun1.jpeg'
-import kartik from './kartik4.jpeg'
-import shraddha from './shraddha4.jpeg'
-import tara from './tara3.jpeg'
+
 import Button from './../button/button'
 
 export default function Card({img,name,greet}){
