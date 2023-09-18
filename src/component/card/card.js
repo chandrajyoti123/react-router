@@ -1,6 +1,6 @@
-import './card.css'
+import './Card.css'
 
-import Button from './../button/button'
+import Button from '../Button/Button'
 
 export default function Card({img,name,greet}){
     return(

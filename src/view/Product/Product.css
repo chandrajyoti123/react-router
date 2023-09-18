@@ -1,0 +1,5 @@
+.ListOfProCard{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+}

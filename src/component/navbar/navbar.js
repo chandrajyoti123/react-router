@@ -1,5 +1,5 @@
-import './navbar.css';
-// import { Link } from 'react-router-dom';
+import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar(){
@@ -10,9 +10,13 @@ export default function Navbar(){
         <span>Learning Javascript</span>
         <ul>
             
-              <li><a href="/" className={path==='/'?'active':''} id='link'>Home</a></li>
+              {/* <li><a href="/" className={path==='/'?'active':''} id='link'>Home</a></li>
               <li><a href="/about" className={path==='/about'?'active':'' } id='link'>About</a></li>
-              <li><a href="/contact" className={path==='/contact'?'active':''} id='link'>Contact</a></li>
+              <li><a href="/contact" className={path==='/contact'?'active':''} id='link'>Contact</a></li> */}
+              <li><Link to="/" className={path==='/'?'active':''} id='link'>Home</Link></li>
+              <li><Link to="/about" className={path==='/about'?'active':'' } id='link'>About</Link></li>
+              <li><Link to="/contact" className={path==='/contact'?'active':''} id='link'>Contact</Link></li>
+              <li><Link to="/product" className={path==='/product'?'active':''} id='link'>Product</Link></li>
             
           
         </ul>
@@ -20,6 +24,3 @@ export default function Navbar(){
     )
 }
 
-{/* <li><Link to="/" className={path==='/'?'active':''} id='link'>Home</Link></li>
-<li><Link to="/about" className={path==='/about'?'active':'' } id='link'>About</Link></li>
-<li><Link to="/contact" className={path==='/contact'?'active':''} id='link'>Contact</Link></li> */}

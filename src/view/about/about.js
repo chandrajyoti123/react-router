@@ -1,7 +1,7 @@
-import './about.css'
+import './About.css'
 
-import Navbar from '../../component/navbar/navbar'
-import Footer from './../../component/footer/footer'
+import Navbar from '../../component/Navbar/Navbar'
+import Footer from '../../component/Footer/Footer'
 import tara from './tara.jpg'
 
 export default function AboutUs(){
